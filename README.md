@@ -1,6 +1,6 @@
-# tsb-react-map-boilerplate
+# berlin-sidewalk-widths
 
-> This project serves as a template to plot spatial data on a map.
+> This visualization is based on the boilermap template.
 
 ## Getting started
 
@@ -10,70 +10,6 @@ Add a ```.env``` file with your mapbox token and style credentials in the root d
 REACT_APP_MAP_TOKEN={{MAPBOX_TOKEN}}
 REACT_APP_MAP_STYLE={{MAPBOX_STYLE_URL}}
 ```
-
-## How to setup the project
-
-Inside the root directory is a ```config.js``` located which defines *what* and *how* properties of your geojson are displayed. Further more it sets default values for setting up the map. 
-
-It is required to define what data is displayed:
-1. Inside the **tooltip** (when hovering above an item on the map)
-2. Inside the **detail** Section of the sidebar (which provides a more default view on available data of the selected item)
-3. On the **about** section of the sidebar (which provides additional information about the project)
-
-### tooltip & detail
-id -> Name of the key inside properties of each feature.
-component -> React component that is rendered.
-label -> Label that is displayed above the data.
-
-#### Available components
-- tags -> expects the data to be an **array of strings**
-- title -> expects the data to be a **string**
-- description -> expects the data to be a **string**
-- link -> expects the data to be a **string**
-
-```
-  detail: [
-    {
-      id: "name",
-      component: "title",
-      label: "Institution",
-    }
-  ]
-```
-
-### about
-...
-
-```
-  about: {
-    title: "Name des Projekts hier",
-    paragraphs: [
-      {
-        title: "Subheadline hier",
-        content: "Lorem ipsum [dolorem](https://www.google.de) est.",
-      },
-      {
-        title: "Subheadline hier",
-        content: "Lorem ipsum [dolorem](https://www.google.de) est.",
-      },
-    ]
-  },
-```
-
-
-
-
-
-
-
-Available Content types:
-
-- title
-- paragraph
-
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -112,32 +48,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
