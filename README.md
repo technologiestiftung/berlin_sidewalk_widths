@@ -1,6 +1,6 @@
 # berlin-sidewalk-widths
 
-> This visualization is based on the boilermap template.
+> This visualization is based on the boilerplate template.
 
 ## Getting started
 
