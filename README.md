@@ -1,6 +1,7 @@
 # berlin-sidewalk-widths
 
-> This visualization is based on the boilerplate template.
+> This visualization is based on the boilerplate template. The calculation of widths is based on https://github.com/meliharvey/sidewalkwidths-nyc which was used for https://www.sidewalkwidths.nyc/#13/40.69449/-74.00275.
+Open Data comes from FIS-Broker Berlin: https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=zoomStart&mapId=k_StraDa@senstadt&bbox=385419,5816845,385649,5816975.
 
 ## Getting started
 
