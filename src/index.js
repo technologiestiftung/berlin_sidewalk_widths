@@ -14,5 +14,5 @@ ReactDOM.render(
       <App />
     </>
   </StoreProvider>,
-  document.getElementById("root"),
+  document.getElementById("root"), 
 );
