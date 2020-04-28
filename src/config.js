@@ -30,12 +30,12 @@ export default {
     title: "Berlin Sidewalk widths",
     paragraphs: [
       {
-        title: "Subheadline hier",
-        content: "Lorem ipsum [dolorem](https://www.google.de) est. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        title: "Welche Gehwege erlauben einen Mindestabstand von 1,5m?",
+        content: "Laut aktuellen Regelungen, müssen die Berliner einen Mindestabstand von 1,5 Meter von einander halten. Dank wärmeren Temperaturen und gelockerten Maßnahmen werden die Straßen jetzt voller und der Mindestabstand wird schwieriger zu halten – besonders wo die Gehwege eng sind. Diese Karte zeigt auf, in welchen Stadtteilen die Straßeninfrakstruktur möglicherweise einen Mindestabstand von 1,5 Metern schlecht erlaubt.",
       },
       {
-        title: "Subheadline hier",
-        content: "Lorem ipsum [dolorem](https://www.google.de) est. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        title: "Über die Daten",
+        content: "Dieser Datensatz basiert sich auf Daten aus dem „Straßenbefahrung 2014“ Datensatz im Geoportal Berlin. Mehr Informationen zum Datensatz und zur Karte sind [auf GitHub](https://github.com/technologiestiftung/berlin_sidewalk_widths) zu finden.",
       },
     ]
   },
