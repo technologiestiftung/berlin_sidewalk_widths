@@ -29,7 +29,7 @@ const Map = (p) => {
   const setTooltipData = useStoreActions((actions) => actions.setTooltipData);
   const setTooltipPos = useStoreActions((actions) => actions.setTooltipPos);
 
-  const handleClick = (map,evt) => {
+  const handleMouseMove = (map,evt) => {
     const features = map.queryRenderedFeatures(evt.point);
     if (features[0] && features[0].properties.width) {
       setTooltipData(features[0].properties);
@@ -45,7 +45,7 @@ const Map = (p) => {
         zoom={mapZoom}
         center={mapCenter}
         style={style}
-        onClick={handleClick}
+        onMouseMove={handleMouseMove}
         containerStyle={{ height: "100%", width: "100%" }}
       >
         {/* <Route
