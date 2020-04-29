@@ -12,7 +12,7 @@ export default {
     },
     config: {
       minZoom: 12,
-      maxZoom: 17,
+      maxZoom: 22,
       dragRotate: false,
       bearing: 0,
       maxBounds: [
@@ -27,15 +27,15 @@ export default {
     legend: {
       id: "class"
     },
-    title: "Berlin Sidewalk widths",
+    title: "Sidewalk widths Berlin",
     paragraphs: [
       {
-        title: "Welche Gehwege erlauben einen Mindestabstand von 1,5m?",
-        content: "Laut aktuellen Regelungen, müssen die Berliner einen Mindestabstand von 1,5 Meter von einander halten. Dank wärmeren Temperaturen und gelockerten Maßnahmen werden die Straßen jetzt voller und der Mindestabstand wird schwieriger zu halten – besonders wo die Gehwege eng sind. Diese Karte zeigt auf, in welchen Stadtteilen die Straßeninfrakstruktur möglicherweise einen Mindestabstand von 1,5 Metern schlecht erlaubt.",
+        title: "Welche Gehwege erlauben einen Mindestabstand von 1,5 Metern?",
+        content: "Nach aktueller Regelung, sollen die Berliner*innen einen Abstand von mindestens 1,5 Metern zueinander halten. Dank wärmerer Temperaturen und gelockerter Maßnahmen, treibt es allerdings viele nach draußen. Den empfohlenen Mindestabstand zu halten, kann manchmal schwierig sein – besonders dort, wo die Gehwege schmal sind. Diese Karte zeigt, wie sich die Berliner Kieze in Sachen Gehweginfrastruktur voneinander unterscheiden und welche Straßen einen permanenten Mindestabstand von 1,5 Metern unter Umständen erschweren.",
       },
       {
         title: "Über die Daten",
-        content: "Dieser Datensatz basiert sich auf Daten aus dem „Straßenbefahrung 2014“ Datensatz im Geoportal Berlin. Mehr Informationen zum Datensatz und zur Karte sind [auf GitHub](https://github.com/technologiestiftung/berlin_sidewalk_widths) zu finden.",
+        content: "Der Datensatz der Gehwegbreiten basiert auf den Gehwegpositionen der „Straßenbefahrung 2014“ der Senatsverwaltung für Umwelt, Verkehr und Klimaschutz Berlin. Der zugrundeliegende Datensatz steht über das [Open Data Portal Berlin](https://daten.berlin.de/datensaetze/straßenbefahrung-2014-gehweg-wfs-0) frei zur Verfügung. Mehr Informationen zur Berechnung der Gehwegbreiten und zur Kartendarstellung sind [auf GitHub](https://github.com/technologiestiftung/berlin_sidewalk_widths) zu finden.",
       },
     ]
   },
@@ -45,18 +45,14 @@ export default {
   filter: {
     title: 'Filter und Suche',
     filter: [
-      {
-        id: "class2",
-        component: "tags",
-        label: "Gehwegbreite"
-      }
+
     ]
   },
   tooltip: [
     {
     id: "width",
     component: "title",
-    label: "Dieser Gehweg hat eine breite von",
+    label: "Breite",
     },
   ],
   detail: [
