@@ -2,6 +2,7 @@ import React from "react";
 import ReactMapboxGl from "react-mapbox-gl";
 import styled from "styled-components";
 import { withRouter, Route } from "react-router-dom";
+import { useStoreActions, useStoreState } from "easy-peasy";
 
 import MarkerLayer from "./Layer/MarkerLayer";
 import Tooltip from "components/Tooltip";
@@ -25,6 +26,18 @@ const MapWrapper = styled.div`
 
 const Map = (p) => {
   const { mapCenter, mapZoom, style, data } = p;
+  const setTooltipData = useStoreActions((actions) => actions.setTooltipData);
+  const setTooltipPos = useStoreActions((actions) => actions.setTooltipPos);
+
+  const handleClick = (map,evt) => {
+    const features = map.queryRenderedFeatures(evt.point);
+    if (features[0] && features[0].properties.width) {
+      setTooltipData(features[0].properties);
+      setTooltipPos([evt.lngLat.lng, evt.lngLat.lat]);
+    } else {
+      setTooltipData(null);
+    }
+  }
 
   return (
     <MapWrapper>
@@ -32,12 +45,13 @@ const Map = (p) => {
         zoom={mapZoom}
         center={mapCenter}
         style={style}
+        onClick={handleClick}
         containerStyle={{ height: "100%", width: "100%" }}
       >
-        <Route
+        {/* <Route
           path={["/", "/suche", "/liste", "/favoriten", "/info"]}
           render={() => <MarkerLayer data={data}/>}
-        />
+        /> */}
         <Tooltip />
         <LogoTile />
       </MapGL>

@@ -45,6 +45,7 @@ const MarkerLayer = (p) => {
 
   const handleMouseEnter = (evt, { properties = {} }) => {
     evt.map.getCanvas().style.cursor = "pointer";
+    console.log("marker layer properties", properties)
     setTooltipData(properties);
   };
 
@@ -114,15 +115,6 @@ const MarkerLayer = (p) => {
 
   return (
     <Fragment>
-      <Layer
-        id="MarkerLayerData"
-        type="line"
-        paint={paintPropsDefault}
-        onMouseMove={(evt) => handleMouseMove(evt)}
-      >
-        { data.features.map((feat, i) => renderFeat(feat, i)) }
-        {/* {data.features.filter(d => !d.properties.filtered).map(feat => renderFeat(feat))} */}
-      </Layer>
       <Layer
         id="MarkerLayer"
         type="line"
