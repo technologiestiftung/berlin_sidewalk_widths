@@ -34,7 +34,7 @@ export default {
         content: "Nach aktueller Regelung, sollen die Berliner*innen einen Abstand von mindestens 1,5 Metern zueinander halten. Dank wärmerer Temperaturen und gelockerter Maßnahmen, treibt es allerdings viele nach draußen. Den empfohlenen Mindestabstand zu halten, kann manchmal schwierig sein – besonders dort, wo die Gehwege schmal sind. Diese Karte zeigt, wie sich die Berliner Kieze in Sachen Gehweginfrastruktur voneinander unterscheiden und welche Straßen einen permanenten Mindestabstand von 1,5 Metern unter Umständen erschweren.",
       },
       {
-        title: "Über die Daten",
+        title: "Datengrundlage",
         content: "Der Datensatz der Gehwegbreiten basiert auf den Gehwegpositionen der „Straßenbefahrung 2014“ der Senatsverwaltung für Umwelt, Verkehr und Klimaschutz Berlin. Der zugrundeliegende Datensatz steht über das [Open Data Portal Berlin](https://daten.berlin.de/datensaetze/straßenbefahrung-2014-gehweg-wfs-0) frei zur Verfügung. Mehr Informationen zur Berechnung der Gehwegbreiten und zur Kartendarstellung sind [auf GitHub](https://github.com/technologiestiftung/berlin_sidewalk_widths) zu finden.",
       },
     ]

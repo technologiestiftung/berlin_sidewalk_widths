@@ -11,7 +11,7 @@ export default p => {
   const categories = useStoreState(state => state.categories);
   return (
     <>
-      <CardTitle>Legende:</CardTitle>
+      <CardTitle>Legende</CardTitle>
       {categories && (
         <div
           sx={{

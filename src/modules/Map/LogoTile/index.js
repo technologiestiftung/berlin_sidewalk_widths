@@ -29,7 +29,7 @@ class LogoTile extends PureComponent {
   render() {
     return (
       <StyledLogoTile>
-        Ein Projekt der:
+        {/* Ein Projekt der: */}
         <StyledTSBLogo />
       </StyledLogoTile>
     );

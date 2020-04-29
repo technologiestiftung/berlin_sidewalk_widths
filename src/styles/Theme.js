@@ -9,7 +9,7 @@ export default {
   sizes: [10, 20, 30, 40, 50, 60],
   fonts: {
     body: 'Clan Book',
-    heading: 'Clan Bold',
+    heading: 'Clan Medium',
   },
   fontSizes: [10, 13, 16, 20, 24, 32, 48, 64, 96],
   fontWeights: {

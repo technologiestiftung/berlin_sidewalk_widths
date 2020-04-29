@@ -14,11 +14,11 @@ export default p => {
       }}
     >
       <div sx={{          
-        width: '22px',
+        width: '30px',
         transform: 'translateY(7.5px)',
-        mr: '10px',
+        mr: '13px',
         //borderRadius: '6px',
-        height: '5px',
+        height: '4px',
         backgroundColor: color,}}
         ></div>
       <span>{title} </span>

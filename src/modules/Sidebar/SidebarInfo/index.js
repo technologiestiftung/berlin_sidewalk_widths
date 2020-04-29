@@ -17,6 +17,7 @@ const SidebarInfo = (p) => {
         {title}
       </SidebarTitle>
       <Legend/>
+      <br></br>
       {paragraphs.map(p => (
         <CardParagraph
           title={p.title}
