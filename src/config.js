@@ -3,7 +3,7 @@ export default {
   },
   map: {
     mapCenter: [13.3514900, 52.5080961],
-    mapZoom: [14],
+    mapZoom: [13],
     marker: {
       color: {
         selected: 'green',
