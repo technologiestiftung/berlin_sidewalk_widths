@@ -27,7 +27,7 @@ export default {
     legend: {
       id: "class"
     },
-    title: "Sidewalk widths Berlin",
+    title: "Berliner Gehwegbreiten",
     paragraphs: [
       {
         title: "Welche Gehwege erlauben einen Mindestabstand von 1,5 Metern?",
