@@ -35,7 +35,7 @@ export default {
       },
       {
         title: "Datengrundlage",
-        content: "Der Datensatz der Gehwegbreiten basiert auf den Gehwegpositionen der „Straßenbefahrung 2014“ der Senatsverwaltung für Umwelt, Verkehr und Klimaschutz Berlin. Der zugrundeliegende Datensatz steht über das [Open Data Portal Berlin](https://daten.berlin.de/datensaetze/straßenbefahrung-2014-gehweg-wfs-0) frei zur Verfügung. Mehr Informationen zur Berechnung der Gehwegbreiten und zur Kartendarstellung sind [auf GitHub](https://github.com/technologiestiftung/berlin_sidewalk_widths) zu finden.",
+        content: "Der Datensatz der Gehwegbreiten basiert auf den Gehwegpositionen aus der „Straßenbefahrung“ der Senatsverwaltung für Umwelt, Verkehr und Klimaschutz Berlin aus dem Jahr 2014. Der zugrundeliegende Datensatz steht über das [Open Data Portal Berlin](https://daten.berlin.de/datensaetze/straßenbefahrung-2014-gehweg-wfs-0) frei zur Verfügung. Mehr Informationen zur Berechnung der Gehwegbreiten und zur Kartendarstellung sind [auf GitHub](https://github.com/technologiestiftung/berlin_sidewalk_widths) zu finden.",
       },
       {
         title: "",
