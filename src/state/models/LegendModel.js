@@ -10,7 +10,7 @@ const LegendModel = {
       const legendType = c.about.legend.id;
       let legendArr = [];
       let legendColorCodes = [];
-      const color = scaleOrdinal(['#a80b0b','#f63f23', '#f09c2d','#f5de47','#77d425','#657ff6']);
+      const color = scaleOrdinal(['#a80b0b','#f63f23', '#f09c2d','#f5de47','#77d425','#2e7c27']);
 
       console.log(target)
 
