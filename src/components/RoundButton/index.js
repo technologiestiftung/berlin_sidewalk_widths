@@ -13,14 +13,14 @@ export default p => {
         backgroundColor: 'text',
         cursor: 'pointer',
         border: 'none',
-        outline: '0',
+
         transition: theme => theme.transitions[0],
         '&:hover': {
           backgroundColor: 'textgrey'
         },
         '& > svg': { 
           fill: 'background',
-          transform: 'translateY(1px)',
+          transform: 'translateY(2.3px)',
         }
       }}
     >
