@@ -8,7 +8,7 @@ import c from "config";
 import CardTitle from './CardTitle';
 
 const CardDescription = styled.div`
-  font-size: 12px;
+  font-size: 15px;
   line-height: 150%;
   color: '${(props) => props.type}';
 `;

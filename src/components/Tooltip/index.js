@@ -7,12 +7,14 @@ import CardHeader from "components/Card/CardHeader";
 
 const StyledPopup = styled(Popup)`
   &&& {
-    max-width: 220px;
+    max-width: 440px;
     min-width: 50px;
     line-height: 1;
 
     .mapboxgl-popup-content {
       background: lightgrey;
+      padding: 3%;
+      text-align: center;
     }
 
     .mapboxgl-popup-tip {

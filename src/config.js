@@ -55,7 +55,7 @@ export default {
   tooltip: [
     {
     id: "width_str",
-    component: "title",
+    component: "description",
     label: "Breite",
     },
   ],
