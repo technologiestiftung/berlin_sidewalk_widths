@@ -19,7 +19,7 @@ const DataModel = {
   }),
   loadData: thunk(async (actions) => {
     try {
-      const response = await fetch("/data/data.geojson");
+      const response = await fetch("/data/data_test.geojson");
       const data = await response.json();
       data.features.map((feat) => {
         feat.properties.autoid = id();
