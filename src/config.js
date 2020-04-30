@@ -31,7 +31,7 @@ export default {
     paragraphs: [
       {
         title: "Welche Gehwege erlauben einen Mindestabstand von 1,5 Metern?",
-        content: "Nach aktueller Regelung, sollen die Berliner*innen einen Abstand von mindestens 1,5 Metern zueinander halten. Dank wärmerer Temperaturen und gelockerter Maßnahmen, treibt es allerdings viele nach draußen. Den empfohlenen Mindestabstand zu halten, kann manchmal schwierig sein – besonders dort, wo die Gehwege schmal sind. Diese Karte zeigt, wie sich die Berliner Kieze in Sachen Gehweginfrastruktur voneinander unterscheiden und welche Straßen einen permanenten Mindestabstand von 1,5 Metern unter Umständen erschweren.",
+        content: "Nach aktueller Regelung, sollen die Berliner*innen einen Abstand von mindestens 1,5 Metern zueinander halten. Dank höherer Temperaturen und gelockerter Maßnahmen, treibt es allerdings viele nach draußen. Den empfohlenen Mindestabstand zu halten, kann manchmal schwierig sein – besonders dort, wo die Gehwege schmal sind. Diese Karte zeigt, wie sich die Berliner Kieze in Sachen Gehweginfrastruktur voneinander unterscheiden und welche Straßen einen permanenten Mindestabstand von 1,5 Metern unter Umständen erschweren.",
       },
       {
         title: "Datengrundlage",
@@ -50,16 +50,16 @@ export default {
   },
   tooltip: [
     {
-    id: "width",
+    id: "width_str",
     component: "title",
     label: "Breite",
     },
   ],
-  detail: [
+  detail: [ 
     {
       id: "class",
       component: "title",
       label: "class",
-    }
+    } 
   ],
 };
