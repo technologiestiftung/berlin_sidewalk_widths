@@ -7,7 +7,7 @@
 The Open Data of sidewalk positions comes from FIS-Broker, the Geodata portal of Berlin:
 https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=zoomStart&mapId=k_StraDa@senstadt&bbox=385419,5816845,385649,5816975. This is a data set of sidewalk polygons, collected by the Senatsverwaltung für Umwelt, Verkehr und Klimaschutz. 
 
-The calculation of widths from this polygons is based on the method of https://github.com/meliharvey/sidewalkwidths-nyc which was used for a visualization of sidewalk widths in New Yorck City: https://www.sidewalkwidths.nyc/#13/40.69449/-74.00275. Please visit their repository to learn more about the calculation.
+The calculation of widths from this polygons is based on the method of https://github.com/meliharvey/sidewalkwidths-nyc which was used for a visualization of sidewalk widths in New York City: https://www.sidewalkwidths.nyc/#13/40.69449/-74.00275. Please visit their repository to learn more about the calculation.
 
 This visualization is based on the boilerplate template of Technologiestiftung Berlin. This repo only contains a test data set. The data set of sidewalk widths is loaded from Mapbox Vector tiles. 
 
