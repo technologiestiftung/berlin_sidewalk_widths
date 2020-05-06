@@ -9,7 +9,7 @@ https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=zoomStart&mapId=k_StraDa@s
 
 The calculation of widths from this polygons is based on the method of https://github.com/meliharvey/sidewalkwidths-nyc which was used for a visualization of sidewalk widths in New York City: https://www.sidewalkwidths.nyc/#13/40.69449/-74.00275. Please visit their repository to learn more about the calculation.
 
-This visualization is based on the boilerplate template of Technologiestiftung Berlin. This repo only contains a test data set. The data set of sidewalk widths is loaded from Mapbox Vector tiles. 
+This visualization is based on the boilerplate template of Technologiestiftung Berlin. The data set of sidewalk widths is loaded from Mapbox Vector tiles. Nevertheless we also uploaded the dataset to this repository. You can find it here: public/data/all.geojson.
 
 ## Usage of the map
 
