@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 import styled from "styled-components";
 
 import CLLogo from "components/CLLogo";
+import ODLogo from "components/ODLogo";
 
 const StyledLogoTile = styled.div`
   position: absolute;
@@ -24,6 +25,9 @@ const StyledLogoTile = styled.div`
 const StyledCLLogo = styled(CLLogo)`
   padding-left: 0px;
 `;
+const StyledODLogo = styled(ODLogo)`
+  padding-left: 0px;
+`;
 
 class LogoTile extends PureComponent {
   render() {
@@ -31,6 +35,7 @@ class LogoTile extends PureComponent {
       <StyledLogoTile>
         {/* Ein Projekt der: */}
         <StyledCLLogo />
+        <StyledODLogo />
       </StyledLogoTile>
     );
   }
