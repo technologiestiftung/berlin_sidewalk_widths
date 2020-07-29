@@ -1,7 +1,5 @@
 /** @jsx jsx */
 import { jsx, Flex } from 'theme-ui';
-import React, {useEffect} from 'react';
-import { useStoreState } from 'easy-peasy';
 
 import CardLabel from './CardLabel';
 
@@ -15,7 +13,6 @@ export default p => {
     }
   ]
 
-  const categories = useStoreState(state => state.categories);
   return (
     <>
       {content && (

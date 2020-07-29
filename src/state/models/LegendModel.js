@@ -1,5 +1,5 @@
 import { actionOn } from "easy-peasy";
-import { schemePaired, scaleOrdinal } from "d3";
+import { scaleOrdinal } from "d3";
 import c from "config";
 
 const LegendModel = {
@@ -14,8 +14,8 @@ const LegendModel = {
 
       console.log(target)
 
+      // eslint-disable-next-line no-unused-vars
       const categories = payload.features.forEach((feature, i) => {
-        const { properties } = feature;
 
         const val = feature.properties[legendType];
 
@@ -24,14 +24,14 @@ const LegendModel = {
           legendArr.push(val);
           legendColorCodes.push({ id: val, color: [color(i)], count: 1 });
         } else {
-          const active = legendColorCodes.find(({ id }) => id == val);
+          const active = legendColorCodes.find(({ id }) => id === val);
           active.count += 1;
         }
       });
 
       payload.features.map((feature) => {
         const val = feature.properties[legendType];
-        const colorObj = legendColorCodes.find(({ id }) => id == val);
+        const colorObj = legendColorCodes.find(({ id }) => id === val);
         feature.properties.color = colorObj.color;
         feature.properties.filtered = false;
         return {

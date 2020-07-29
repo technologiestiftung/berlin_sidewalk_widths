@@ -1,10 +1,9 @@
 import React from "react";
 import ReactMapboxGl from "react-mapbox-gl";
 import styled from "styled-components";
-import { withRouter, Route } from "react-router-dom";
-import { useStoreActions, useStoreState } from "easy-peasy";
+import { withRouter } from "react-router-dom";
+import { useStoreActions } from "easy-peasy";
 
-import MarkerLayer from "./Layer/MarkerLayer";
 import Tooltip from "components/Tooltip";
 import LogoTile from "./LogoTile";
 
@@ -25,7 +24,7 @@ const MapWrapper = styled.div`
 `;
 
 const Map = (p) => {
-  const { mapCenter, mapZoom, style, data } = p;
+  const { mapCenter, mapZoom, style } = p;
   const setTooltipData = useStoreActions((actions) => actions.setTooltipData);
   const setTooltipPos = useStoreActions((actions) => actions.setTooltipPos);
 

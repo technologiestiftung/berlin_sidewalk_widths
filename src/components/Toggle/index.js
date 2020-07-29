@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx, Button } from "theme-ui";
-import React, { useState } from "react";
+// eslint-disable-next-line no-unused-vars
+import React from "react";
 import FavIcon from "@material-ui/icons/FavoriteBorder";
 import UnFavIcon from "@material-ui/icons/Favorite";
 
@@ -9,7 +10,7 @@ const Icon = (isFaved) => <>{isFaved ? <UnFavIcon /> : <FavIcon />}</>;
 export default (p) => {
   const { onToggle, type, autoId, isFaved } = p;
   const content = isFaved ? "Aus Favoriten entfernen" : "Zu Favoriten";
-  const isDetail = type == "detail";
+  const isDetail = type === "detail";
 
   return (
     <Button
