@@ -1,12 +1,13 @@
 /** @jsx jsx */
 import { jsx, Flex } from 'theme-ui';
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 
 import Tag from './Tag';
 import CardTitle from 'components/Card/CardTitle';
 
 export default p => {
-  const { title, filter, filterValues } = p;
+  const { filter, filterValues } = p;
   return (
     <Flex
       sx={{

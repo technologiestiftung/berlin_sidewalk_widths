@@ -1,12 +1,6 @@
-import React, { PureComponent } from "react";
+import React from "react";
 import styled from "styled-components";
-import { connect } from "unistore/react";
-
-const DetailTitle = styled(SidebarTitle)`
-  margin-bottom: ${(props) => props.theme.padding[1]};
-  padding-right: ${(props) => props.theme.padding[0]};
-  padding-left: 0;
-`;
+import CardWrapper from "./CardWrapper";
 
 const DetailCardWrapper = styled(CardWrapper)`
   display: block;
@@ -21,6 +15,7 @@ const DetailHeader = styled.div`
   flex-direction: row;
 `;
 
+// eslint-disable-next-line no-unused-vars
 const DetailCard = (p) => {
   const { data } = p;
   return (

@@ -2,7 +2,7 @@
 import { jsx } from 'theme-ui';
 
 export default p => {
-  const { color, count, title } = p;
+  const { color, title } = p;
   return (
     <div
       sx={{

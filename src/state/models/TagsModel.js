@@ -1,4 +1,4 @@
-import { action, actionOn } from "easy-peasy";
+import { actionOn } from "easy-peasy";
 import c from "config";
 
 const TagsModel = {

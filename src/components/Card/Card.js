@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import c from "config";
-import React from "react";
 import { useStoreActions } from 'easy-peasy';
 
 import CardTitle from "./CardTitle";

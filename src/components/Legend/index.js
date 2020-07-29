@@ -1,13 +1,13 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import React, {useEffect} from 'react';
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
 import { useStoreState } from 'easy-peasy';
 
 import CardTitle from 'components/Card/CardTitle';
 import LegendItem from './LegendItem';
 
 export default p => {
-  const { data } = p;
   const categories = useStoreState(state => state.categories);
   return (
     <>

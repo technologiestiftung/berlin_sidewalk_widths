@@ -27,12 +27,12 @@ const FilterModel = {
         properties[id].forEach((prop) => {
 
           // if prop is set to filtered
-          if (prop == data && localState[id][data]) {
+          if (prop === data && localState[id][data]) {
             properties.filtered = true;
           }
 
           // if prop is NOT set to filtered
-          if (prop == data && !localState[id][data]) {
+          if (prop === data && !localState[id][data]) {
             properties.filtered = false;
           }
 

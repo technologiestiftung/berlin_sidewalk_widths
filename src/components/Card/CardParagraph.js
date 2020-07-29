@@ -1,12 +1,11 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { createMarkup } from 'utils';
 import ReactMarkdown from 'react-markdown';
 
 import CardTitle from './CardTitle';
 
 export default p => {
-  const { type, size, title, text } = p;
+  const { type, title, text } = p;
   const fontColor = type === 'white' ? 'background' : 'text';
   return (
     <div
