@@ -1,7 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import CardLabel from './CardLabel';
-import React from 'react';
 
 export default p => {
   const { url, content, label, ismail } = p;

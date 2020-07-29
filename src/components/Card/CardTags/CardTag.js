@@ -8,7 +8,6 @@ export default p => {
       sx={{
         fontSize: [1],
         color: ['white'],
-        lineHeight: ['heading'],
         fontFamily: 'body',
         py: 2,
         px: 3,

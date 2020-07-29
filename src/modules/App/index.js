@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import { Router, Route, Redirect, Switch } from "react-router-dom";
 import AppWrapper from "./AppWrapper";
-import { useStoreActions, useStoreState } from "easy-peasy";
-import queryString from 'query-string';
+import { useStoreActions } from "easy-peasy";
 
 import history from '../../history';
 
@@ -18,7 +17,7 @@ const App = (p) => {
       history.push('/info');
     }, 250);
   
-  }, []);
+  }, [loadData]);
 
   return (
     <Router history={history}>

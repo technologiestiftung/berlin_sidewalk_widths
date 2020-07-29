@@ -24,5 +24,5 @@ export default {
   margin: [10, 15, 25, 50, 75, 100].map(px),
   letterSpacing: [0.25, 0.5, 1].map(px),
   padding: [5, 10, 15].map(px),
-  breakpoints: ['40em', '64em', '80em'],
+  breakpoints: ["40em", "64em", "80em"],
 };

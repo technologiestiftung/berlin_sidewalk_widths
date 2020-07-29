@@ -30,7 +30,6 @@ const CardCompact = (p) => {
   const { properties } = data;
   const { autoid, isFaved } = properties;
   const setHighlightData = useStoreActions((a) => a.setHighlightData);
-  const setMapCenter = useStoreActions((a) => a.setMapCenter);
   const setFav = useStoreActions((a) => a.setFav);
   const isTooltip = type === "white";
 

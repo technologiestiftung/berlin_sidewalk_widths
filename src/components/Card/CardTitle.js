@@ -2,11 +2,10 @@
 import { jsx } from 'theme-ui';
 
 export default p => {
-  const { type, size } = p;
+  const { type, size, children } = p;
   const fontColor = type === 'white' ? 'background' : 'text';
   const fontSize = size === 'responsive' ? [2,3,4] : 2;
   const padding = size === 'responsive' ? [3,4,5] : 1;
-  const width = size === 'responsive' ? '70%' : '100%';
   return (
     <h3
       {...p}
@@ -20,6 +19,6 @@ export default p => {
         width: '80%',
         transition: theme => theme.transitions[0],
       }}
-    ></h3>
+    >{children}</h3>
   )
 }

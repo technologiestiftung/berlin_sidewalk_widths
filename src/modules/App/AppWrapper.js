@@ -22,7 +22,6 @@ const StyledWrapper = styled(Box)`
 
 const AppWrapper = () => {
   const isLoading = useStoreState((state) => state.isLoading);
-  const data = useStoreState((state) => state.data);
   const filteredData = useStoreState((state) => state.filteredData);
   const mapCenter = useStoreState((state) => state.mapCenter);
   const mapZoom = useStoreState((state) => state.mapZoom);
