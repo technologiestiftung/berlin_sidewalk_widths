@@ -60,8 +60,8 @@
     ]
   },
   "devDependencies": {
-    "html-webpack-plugin": "5.2.0",
+    "html-webpack-plugin": "5.3.1",
     "prettier": "2.2.1",
-    "react-app-rewired": "2.1.5"
+    "react-app-rewired": "2.1.8"
   }
 }
